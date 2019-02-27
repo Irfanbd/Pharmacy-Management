@@ -17,3 +17,22 @@ G:\NWU\01.Semister\Third Year Second Semester\PhMS\PhMS\obj\Debug\Dashboard.g.cs
 G:\NWU\01.Semister\Third Year Second Semester\PhMS\PhMS\obj\Debug\Dashboard.baml
 G:\NWU\01.Semister\Third Year Second Semester\PhMS\PhMS\obj\Debug\Mainpage.g.cs
 G:\NWU\01.Semister\Third Year Second Semester\PhMS\PhMS\obj\Debug\Mainpage.baml
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\bin\Debug\PhMS.exe.config
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\bin\Debug\PhMS.exe
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\bin\Debug\PhMS.pdb
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.csprojAssemblyReference.cache
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Dashboard.g.cs
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Mainpage.g.cs
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\MainWindow.g.cs
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\App.g.cs
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS_MarkupCompile.cache
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS_MarkupCompile.lref
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Dashboard.baml
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Mainpage.baml
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\MainWindow.baml
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.g.resources
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.Properties.Resources.resources
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.GenerateResource.cache
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.CoreCompileInputs.cache
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.exe
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.pdb

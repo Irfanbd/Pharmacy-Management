@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="Mainpage" Height="717.076" Width="1333.898">
+        Title="Mainpage" Height="904.302" Width="1023.103">
     <Window.Background>
         <ImageBrush ImageSource="Image/pills-and-medicine-blister-on-white-background_23-2147883678.jpg"/>
     </Window.Background>
-    <Grid>
-        <Label Content="Medicine" HorizontalAlignment="Left" Height="69" Margin="107,139,0,0" VerticalAlignment="Top" Width="195" FontSize="36"/>
-        <Label Content="Staff" HorizontalAlignment="Left" Height="69" Margin="458,139,0,0" VerticalAlignment="Top" Width="195" FontSize="36"/>
-        <Label Content="Company" HorizontalAlignment="Left" Height="69" Margin="865,139,0,0" VerticalAlignment="Top" Width="195" FontSize="36"/>
+    <Grid Margin="0,0,0,-3">
+        <Label Content="Medicine" HorizontalAlignment="Left" Height="69" Margin="53,139,0,0" VerticalAlignment="Top" Width="195" FontSize="36"/>
+        <Label Content="Staff" HorizontalAlignment="Left" Height="69" Margin="366,139,0,0" VerticalAlignment="Top" Width="195" FontSize="36"/>
+        <Label Content="Company" HorizontalAlignment="Left" Height="69" Margin="612,139,0,0" VerticalAlignment="Top" Width="195" FontSize="36"/>
 
     </Grid>
 </Window>

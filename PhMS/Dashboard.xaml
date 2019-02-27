@@ -5,30 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="Dashboard" Height="312" Width="800" WindowStyle="None">
+        Title="Dashboard" Height="386.13" Width="397.577" WindowStyle="None">
     <Window.Background>
         <ImageBrush ImageSource="Image/6vtd3q.jpg"/>
     </Window.Background>
-    <Grid>
-        <Label Content="Login System" HorizontalAlignment="Left" Margin="236,34,0,0" VerticalAlignment="Top" Width="238" Height="68" FontSize="36" FontWeight="Bold" RenderTransformOrigin="0.908,0.566"/>
-        <Label Content="Username" HorizontalAlignment="Left" Height="31" Margin="216,136,0,0" VerticalAlignment="Top" Width="210" FontSize="18"/>
-        <Label Content="Password" HorizontalAlignment="Left" Height="32" Margin="216,194,0,0" VerticalAlignment="Top" Width="210" FontSize="18"/>
-        <TextBox x:Name="username" HorizontalAlignment="Left" Height="31" Margin="445,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="297">
+    <Grid Margin="0,0,-8,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="59*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Label Content="Login System" HorizontalAlignment="Left" Margin="63,32,0,0" VerticalAlignment="Top" Width="238" Height="68" FontSize="36" FontWeight="Bold" RenderTransformOrigin="0.908,0.566" Grid.Column="1"/>
+        <Label Content="Username" HorizontalAlignment="Left" Height="31" Margin="1.005,136,0,0" VerticalAlignment="Top" Width="97" FontSize="18" Grid.Column="1"/>
+        <Label Content="Password" HorizontalAlignment="Left" Height="32" Margin="1.005,194,0,0" VerticalAlignment="Top" Width="97" FontSize="18" Grid.Column="1"/>
+        <TextBox x:Name="username" HorizontalAlignment="Left" Height="31" Margin="127.005,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" Grid.Column="1">
             <TextBox.Background>
                 <ImageBrush/>
             </TextBox.Background>
         </TextBox>
-        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="445,194,0,0" VerticalAlignment="Top" Height="32" Width="297" RenderTransformOrigin="0.264,0.273">
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="127.005,194,0,0" VerticalAlignment="Top" Height="32" Width="229" RenderTransformOrigin="0.264,0.273" Grid.Column="1">
             <PasswordBox.Background>
                 <ImageBrush/>
             </PasswordBox.Background>
         </PasswordBox>
-        <Button x:Name="exit_btn" Content="" HorizontalAlignment="Left" Margin="696,246,0,0" VerticalAlignment="Top" Width="46" Height="33" OpacityMask="#FF4F0000" Click="exit_b" RenderTransformOrigin="0.565,-0.014">
+        <Button x:Name="exit_btn" Content="" HorizontalAlignment="Left" Margin="310.005,246,0,0" VerticalAlignment="Top" Width="46" Height="33" OpacityMask="#FF4F0000" Click="exit_b" RenderTransformOrigin="0.565,-0.014" Grid.Column="1">
             <Button.Background>
                 <ImageBrush ImageSource="Image/38-512.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="login" Content="Login" HorizontalAlignment="Left" Margin="445,246,0,0" VerticalAlignment="Top" Width="75" Height="33" FontSize="16" FontWeight="Bold" Click="login_btn"/>
+        <Button x:Name="login" Content="Login" HorizontalAlignment="Left" Margin="127.005,246,0,0" VerticalAlignment="Top" Width="75" Height="33" FontSize="16" FontWeight="Bold" Click="login_btn" Grid.Column="1"/>
 
     </Grid>
 </Window>

@@ -9,7 +9,7 @@
     <Window.Background>
         <ImageBrush ImageSource="Image/6vtd3q.jpg" Stretch="UniformToFill"/>
     </Window.Background>
-    <Grid>
+    <Grid Margin="0,0,-8,-22" HorizontalAlignment="Left" Width="843">
         <Grid.Background>
             <ImageBrush ImageSource="Image/triangles-pixabay.png"/>
         </Grid.Background>
