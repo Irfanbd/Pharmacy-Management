@@ -5,37 +5,93 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="Dashboard" Height="386.13" Width="397.577" WindowStyle="None">
+        Title="Dashboard" Height="419.148" Width="517.918" WindowStyle="None">
     <Window.Background>
-        <ImageBrush ImageSource="Image/6vtd3q.jpg"/>
+        <ImageBrush ImageSource="Image/74.jpg"/>
     </Window.Background>
     <Grid Margin="0,0,-8,0">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="59*"/>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="494*"/>
+            <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
             <ImageBrush/>
         </Grid.Background>
-        <Label Content="Login System" HorizontalAlignment="Left" Margin="63,32,0,0" VerticalAlignment="Top" Width="238" Height="68" FontSize="36" FontWeight="Bold" RenderTransformOrigin="0.908,0.566" Grid.Column="1"/>
-        <Label Content="Username" HorizontalAlignment="Left" Height="31" Margin="1.005,136,0,0" VerticalAlignment="Top" Width="97" FontSize="18" Grid.Column="1"/>
-        <Label Content="Password" HorizontalAlignment="Left" Height="32" Margin="1.005,194,0,0" VerticalAlignment="Top" Width="97" FontSize="18" Grid.Column="1"/>
-        <TextBox x:Name="username" HorizontalAlignment="Left" Height="31" Margin="127.005,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229" Grid.Column="1">
+        <Label Content="Login System" HorizontalAlignment="Left" Margin="91,30,0,0" VerticalAlignment="Top" Width="301" Height="68" FontSize="36" FontWeight="Bold" RenderTransformOrigin="0.908,0.566" Grid.Column="1" Background="Transparent" FontFamily="Snap ITC">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFFF00BE" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <Label Content="Username" HorizontalAlignment="Left" Height="38" Margin="180,113,0,0" VerticalAlignment="Top" Width="116" FontSize="18" Grid.Column="1" RenderTransformOrigin="0.759,0.521" FontFamily="Snap ITC">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1A3DC2" Offset="0.01"/>
+                    <GradientStop Color="#FFCF1B43" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <Label Content="Password" HorizontalAlignment="Left" Height="32" Margin="180,209,0,0" VerticalAlignment="Top" Width="112" FontSize="18" Grid.Column="1" FontFamily="Snap ITC" RenderTransformOrigin="-0.16,0.521">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFCF1978" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="username" HorizontalAlignment="Left" Height="31" Margin="125,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" Grid.Column="1">
             <TextBox.Background>
                 <ImageBrush/>
             </TextBox.Background>
         </TextBox>
-        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="127.005,194,0,0" VerticalAlignment="Top" Height="32" Width="229" RenderTransformOrigin="0.264,0.273" Grid.Column="1">
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="125,258,0,0" VerticalAlignment="Top" Height="32" Width="222" RenderTransformOrigin="0.264,0.273" Grid.Column="1">
             <PasswordBox.Background>
                 <ImageBrush/>
             </PasswordBox.Background>
         </PasswordBox>
-        <Button x:Name="exit_btn" Content="" HorizontalAlignment="Left" Margin="310.005,246,0,0" VerticalAlignment="Top" Width="46" Height="33" OpacityMask="#FF4F0000" Click="exit_b" RenderTransformOrigin="0.565,-0.014" Grid.Column="1">
+        <Button x:Name="login" Content="Login" HorizontalAlignment="Left" Margin="125,314,0,0" VerticalAlignment="Top" Width="75" Height="33" FontSize="16" FontWeight="Bold" Click="login_btn" Grid.Column="1" FontFamily="Snap ITC">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFC42CAB" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
             <Button.Background>
-                <ImageBrush ImageSource="Image/38-512.png"/>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF0B0DF" Offset="0"/>
+                    <GradientStop Color="#FFFFEAF3" Offset="1"/>
+                </LinearGradientBrush>
             </Button.Background>
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
         </Button>
-        <Button x:Name="login" Content="Login" HorizontalAlignment="Left" Margin="127.005,246,0,0" VerticalAlignment="Top" Width="75" Height="33" FontSize="16" FontWeight="Bold" Click="login_btn" Grid.Column="1"/>
+        <Button x:Name="exit_btn" Content="Exit" HorizontalAlignment="Left" Margin="272,314,0,0" VerticalAlignment="Top" Width="75" Height="33" FontSize="16" FontWeight="Bold" Click="exit" Grid.Column="1" FontFamily="Snap ITC">
+            <Button.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFD1AFB2" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Foreground>
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF0B0DF" Offset="0"/>
+                    <GradientStop Color="#FFFFEAF3" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
 
     </Grid>
 </Window>

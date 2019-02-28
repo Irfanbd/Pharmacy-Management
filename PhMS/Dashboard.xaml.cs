@@ -24,10 +24,7 @@ namespace PhMS
             InitializeComponent();
         }
 
-        private void exit_b(object sender, RoutedEventArgs e)
-        {
-            Close();
-        }
+        
 
         private void login_btn(object sender, RoutedEventArgs e)
         {
@@ -46,6 +43,11 @@ namespace PhMS
             }
             
             
+        }
+
+        private void exit(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }
