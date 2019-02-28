@@ -5,14 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="Mainpage" Height="904.302" Width="1023.103">
+        Title="Mainpage" Height="874.802" Width="604.576" WindowStyle="None">
     <Window.Background>
-        <ImageBrush ImageSource="Image/pills-and-medicine-blister-on-white-background_23-2147883678.jpg"/>
+        <ImageBrush ImageSource="Image/dash.jpg"/>
     </Window.Background>
     <Grid Margin="0,0,0,-3">
-        <Label Content="Medicine" HorizontalAlignment="Left" Height="69" Margin="53,139,0,0" VerticalAlignment="Top" Width="195" FontSize="36"/>
-        <Label Content="Staff" HorizontalAlignment="Left" Height="69" Margin="366,139,0,0" VerticalAlignment="Top" Width="195" FontSize="36"/>
-        <Label Content="Company" HorizontalAlignment="Left" Height="69" Margin="612,139,0,0" VerticalAlignment="Top" Width="195" FontSize="36"/>
-
+        <Button Content="Madicine" HorizontalAlignment="Left" Margin="133,473,0,0" VerticalAlignment="Top" Width="186" Height="53" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD"/>
+        <Button Content="Staff" HorizontalAlignment="Left" Margin="133,572,0,0" VerticalAlignment="Top" Width="186" Height="52" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD"/>
+        <Button Content="Company" HorizontalAlignment="Left" Margin="133,672,0,0" VerticalAlignment="Top" Width="186" Height="54" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD"/>
     </Grid>
 </Window>

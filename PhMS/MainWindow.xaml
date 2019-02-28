@@ -5,22 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="MainWindow" Height="464.491" Width="843.081" WindowStyle="None">
-    <Window.Background>
-        <ImageBrush ImageSource="Image/6vtd3q.jpg" Stretch="UniformToFill"/>
-    </Window.Background>
+        Title="MainWindow" Height="464.491" Width="843.081" WindowStyle="None" Background="{x:Null}">
     <Grid Margin="0,0,-8,-8" HorizontalAlignment="Left" Width="843">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="832*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
             <ImageBrush ImageSource="Image/ab4.jpg"/>
         </Grid.Background>
-        <Label Content="Pharmacy Management System" HorizontalAlignment="Left" Margin="36,10,0,0" VerticalAlignment="Top" Width="745" RenderTransformOrigin="0.555,0.148" FontSize="48" FontWeight="Bold" Foreground="#FF002E38" Height="85">
+        <Label Content="Pharmacy Management System" HorizontalAlignment="Left" Margin="24.898,10,0,0" VerticalAlignment="Top" Width="745" RenderTransformOrigin="0.555,0.148" FontSize="48" FontWeight="Bold" Foreground="#FF002E38" Height="85" Grid.Column="1">
             <Label.Background>
                 <ImageBrush/>
             </Label.Background>
         </Label>
-        <Button x:Name="admin_b" Content="Admin" HorizontalAlignment="Left" Margin="68,167,0,0" VerticalAlignment="Top" Width="308" Height="98" FontSize="36" FontFamily="Sitka Display" FontWeight="SemiBold" Foreground="White" Click="admin_btn" Background="#FF0D8F75"/>
-        <Button x:Name="staff_btn" Content="Staff" HorizontalAlignment="Left" Margin="438,167,0,0" VerticalAlignment="Top" Width="308" Height="98" FontSize="36" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA" Click="Staff_btn_Click" Background="#FFFD9B01"/>
-        <Button x:Name="exit_btn" Content="" HorizontalAlignment="Left" Margin="735,375,0,0" VerticalAlignment="Top" Width="46" Height="35" OpacityMask="#FF4F0000" Click="wxit_btn">
+        <Button x:Name="admin_b" Content="Admin" HorizontalAlignment="Left" Margin="56.898,167,0,0" VerticalAlignment="Top" Width="308" Height="98" FontSize="36" FontFamily="Sitka Display" FontWeight="SemiBold" Foreground="White" Click="admin_btn" Background="#FF0D8F75" Grid.Column="1"/>
+        <Button x:Name="staff_btn" Content="Staff" HorizontalAlignment="Left" Margin="426.898,167,0,0" VerticalAlignment="Top" Width="308" Height="98" FontSize="36" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA" Click="Staff_btn_Click" Background="#FFFD9B01" Grid.Column="1"/>
+        <Button x:Name="exit_btn" Content="" HorizontalAlignment="Left" Margin="723.898,375,0,0" VerticalAlignment="Top" Width="46" Height="35" OpacityMask="#FF4F0000" Click="wxit_btn" Grid.Column="1">
             <Button.Background>
                 <ImageBrush ImageSource="Image/38-512.png"/>
             </Button.Background>
