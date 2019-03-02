@@ -36,3 +36,5 @@ C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.c
 C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.CoreCompileInputs.cache
 C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.exe
 C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.pdb
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Medicine.g.cs
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Medicine.baml

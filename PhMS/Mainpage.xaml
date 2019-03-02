@@ -10,7 +10,7 @@
         <ImageBrush ImageSource="Image/dash.jpg"/>
     </Window.Background>
     <Grid Margin="0,0,0,-3">
-        <Button Content="Madicine" HorizontalAlignment="Left" Margin="133,473,0,0" VerticalAlignment="Top" Width="186" Height="53" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD"/>
+        <Button x:Name="Madicine" Content="Medicine" HorizontalAlignment="Left" Margin="133,473,0,0" VerticalAlignment="Top" Width="186" Height="53" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD" Click="btn_medi"/>
         <Button Content="Staff" HorizontalAlignment="Left" Margin="133,572,0,0" VerticalAlignment="Top" Width="186" Height="52" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD"/>
         <Button Content="Company" HorizontalAlignment="Left" Margin="133,672,0,0" VerticalAlignment="Top" Width="186" Height="54" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD"/>
     </Grid>

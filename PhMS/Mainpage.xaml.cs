@@ -23,5 +23,11 @@ namespace PhMS
         {
             InitializeComponent();
         }
+
+        private void btn_medi(object sender, RoutedEventArgs e)
+        {
+            Medicine cx = new Medicine();
+            cx.Show();
+        }
     }
 }
