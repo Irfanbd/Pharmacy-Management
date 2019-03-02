@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="Medicine" Height="450" Width="800">
+        Title="Medicine" Height="450" Width="800" WindowStyle="None">
     <Grid>
-        
+        <Border BorderBrush="#FF000000" BorderThickness="1" CornerRadius="8">
+            <Border.Background>
+                <ImageBrush ImageSource="Image/ab1.png"/>
+            </Border.Background>
+        </Border>
     </Grid>
 </Window>

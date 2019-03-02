@@ -54,5 +54,7 @@ namespace PhMS
             Dashboard bw = new Dashboard();
             bw.Show();
         }
+
+        
     }
 }

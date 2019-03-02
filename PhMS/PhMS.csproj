@@ -157,5 +157,10 @@
   <ItemGroup>
     <Resource Include="Image\dash.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\close.png" />
+    <Resource Include="Image\maximize.png" />
+    <Resource Include="Image\mini.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
