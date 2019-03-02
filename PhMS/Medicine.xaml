@@ -5,8 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="Medicine" Height="700" Width="1300" Background="#FF2E6DC9">
+        Title="Medicine" Height="693" Width="617" Background="#FF2E6DC9">
     <Grid>
-        <Label Content="Medicine Name" HorizontalAlignment="Left" Margin="44,54,0,0" VerticalAlignment="Top" Width="172" Height="44" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FF4D3FD0" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Medicine Name           :" HorizontalAlignment="Left" Margin="28,107,0,0" VerticalAlignment="Top" Width="237" Height="44" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Label Content="Group Name                :" HorizontalAlignment="Left" Margin="28,156,0,0" VerticalAlignment="Top" Width="237" Height="44" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Label HorizontalAlignment="Left" Margin="28,200,0,0" VerticalAlignment="Top" Width="172" Height="44" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Label Content="Company Name           :" HorizontalAlignment="Left" Margin="28,200,0,0" VerticalAlignment="Top" Width="237" Height="44" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Label Content="Exp Date                       :" HorizontalAlignment="Left" Margin="28,254,0,0" VerticalAlignment="Top" Width="237" Height="44" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Label Content="Purchase Price              :   " HorizontalAlignment="Left" Margin="28,298,0,0" VerticalAlignment="Top" Width="237" Height="44" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Label Content="Storage Advice             :" HorizontalAlignment="Left" Margin="28,391,0,0" VerticalAlignment="Top" Width="237" Height="44" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Label Content="Sale Price                      :" HorizontalAlignment="Left" Margin="28,342,0,0" VerticalAlignment="Top" Width="237" Height="44" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Label Content="Medicine ID                 :" HorizontalAlignment="Left" Margin="28,63,0,0" VerticalAlignment="Top" Width="237" Height="44" FontSize="20" FontWeight="Bold" Foreground="White" RenderTransformOrigin="0.44,-0.326"/>
+        <Label Content="Manufacturer Country :" HorizontalAlignment="Left" Margin="28,435,0,0" VerticalAlignment="Top" Width="237" Height="44" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="265,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Background="#FF2E6DC9" Foreground="#FFF3F3F3" FontSize="20" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="265,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Background="#FF2E6DC9" Foreground="#FFF3F3F3" FontSize="20" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="265,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Background="#FF2E6DC9" Foreground="#FFF3F3F3" FontSize="20" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="265,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Background="#FF2E6DC9" Foreground="#FFF3F3F3" FontSize="20" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="265,440,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Background="#FF2E6DC9" Foreground="#FFF3F3F3" FontSize="20" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="265,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Background="#FF2E6DC9" Foreground="#FFF3F3F3" FontSize="20" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="265,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Background="#FF2E6DC9" Foreground="#FFF3F3F3" FontSize="20" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="265,391,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Background="#FF2E6DC9" Foreground="#FFF3F3F3" FontSize="20" FontWeight="Bold"/>
+        <DatePicker HorizontalAlignment="Left" Margin="265,258,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Background="#FF231D60" Foreground="#FFE6593D"/>
+        <Button x:Name="staff_btn" Content="Save" HorizontalAlignment="Left" Margin="265,591,0,0" VerticalAlignment="Top" Width="136" Height="44" FontSize="20" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF5B2CCC" Offset="0"/>
+                    <GradientStop Color="#FF00A6E4" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="Supplier Name              :" HorizontalAlignment="Left" Margin="28,484,0,0" VerticalAlignment="Top" Width="237" Height="44" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Label Content="Mobile Number            :" HorizontalAlignment="Left" Margin="28,533,0,0" VerticalAlignment="Top" Width="237" Height="44" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="265,484,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Background="#FF2E6DC9" Foreground="#FFF3F3F3" FontSize="20" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="31" Margin="265,533,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Background="#FF2E6DC9" Foreground="#FFF3F3F3" FontSize="20" FontWeight="Bold"/>
     </Grid>
 </Window>

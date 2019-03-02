@@ -49,7 +49,7 @@
                 <ImageBrush ImageSource="Image/38-512.png"/>
             </Button.Background>
         </Button>
-        <Label x:Name="timer" Content="Time :" Grid.Column="1" HorizontalAlignment="Left" Margin="10,387,0,0" VerticalAlignment="Top" Foreground="#FFF9F9F9" FontWeight="Bold" Loaded="time" RenderTransformOrigin="0.545,0.231" FontSize="18"/>
+        <Label x:Name="timer" Content="Time :" Grid.Column="1" HorizontalAlignment="Left" Margin="10,387,0,0" VerticalAlignment="Top" Foreground="#FFF9F9F9" FontWeight="Bold" RenderTransformOrigin="0.545,0.231" FontSize="18" Loaded="time"/>
 
     </Grid>
 </Window>
