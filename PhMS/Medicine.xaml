@@ -5,12 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="Medicine" Height="450" Width="800" WindowStyle="None">
+        Title="Medicine" Height="700" Width="1300" Background="#FF2E6DC9">
     <Grid>
-        <Border BorderBrush="#FF000000" BorderThickness="1" CornerRadius="8">
-            <Border.Background>
-                <ImageBrush ImageSource="Image/ab1.png"/>
-            </Border.Background>
-        </Border>
+        <Label Content="Medicine Name" HorizontalAlignment="Left" Margin="44,54,0,0" VerticalAlignment="Top" Width="172" Height="44" FontSize="20" FontWeight="Bold" Foreground="White"/>
     </Grid>
 </Window>

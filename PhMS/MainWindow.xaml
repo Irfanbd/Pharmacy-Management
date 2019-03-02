@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="MainWindow" Height="464.491" Width="843.081" WindowStyle="None">
+        Title="MainWindow" Height="464.491" Width="843.081">
     <Window.Background>
         <ImageBrush/>
     </Window.Background>
@@ -28,7 +28,7 @@
                 <ImageBrush/>
             </Label.Background>
         </Label>
-        <Button x:Name="admin_b" Content="Admin" HorizontalAlignment="Left" Margin="245,186,0,0" VerticalAlignment="Top" Width="154" Height="59" FontSize="36" FontFamily="Sitka Display" FontWeight="SemiBold" Foreground="White" Click="admin_btn" Grid.Column="1">
+        <Button x:Name="admin_b" Content="Admin" HorizontalAlignment="Left" Margin="234,161,0,0" VerticalAlignment="Top" Width="154" Height="59" FontSize="36" FontFamily="Sitka Display" FontWeight="SemiBold" Foreground="White" Click="admin_btn" Grid.Column="1" RenderTransformOrigin="0.416,0.102">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFC2195F" Offset="0"/>
@@ -36,7 +36,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="staff_btn" Content="Staff" HorizontalAlignment="Left" Margin="418,186,0,0" VerticalAlignment="Top" Width="167" Height="59" FontSize="36" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA" Click="Staff_btn_Click" Grid.Column="1">
+        <Button x:Name="staff_btn" Content="Staff" HorizontalAlignment="Left" Margin="429,161,0,0" VerticalAlignment="Top" Width="167" Height="59" FontSize="36" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA" Click="Staff_btn_Click" Grid.Column="1">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF5B2CCC" Offset="0"/>
@@ -44,11 +44,12 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="exit_btn" Content="" HorizontalAlignment="Left" Margin="723.898,375,0,0" VerticalAlignment="Top" Width="46" Height="35" OpacityMask="#FF4F0000" Click="wxit_btn" Grid.Column="1">
+        <Button x:Name="exit_btn" Content="" HorizontalAlignment="Left" Margin="747,387,0,0" VerticalAlignment="Top" Width="46" Height="35" OpacityMask="#FF4F0000" Click="wxit_btn" Grid.Column="1">
             <Button.Background>
                 <ImageBrush ImageSource="Image/38-512.png"/>
             </Button.Background>
         </Button>
+        <Label x:Name="timer" Content="Time :" Grid.Column="1" HorizontalAlignment="Left" Margin="10,387,0,0" VerticalAlignment="Top" Foreground="#FFF9F9F9" FontWeight="Bold" Loaded="time" RenderTransformOrigin="0.545,0.231" FontSize="18"/>
 
     </Grid>
 </Window>

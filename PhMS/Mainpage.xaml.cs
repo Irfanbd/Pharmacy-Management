@@ -29,5 +29,6 @@ namespace PhMS
             Medicine cx = new Medicine();
             cx.Show();
         }
+        
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="Dashboard" Height="419.148" Width="517.918" WindowStyle="None">
+        Title="Dashboard" Height="419.148" Width="517.918">
     <Window.Background>
         <ImageBrush ImageSource="Image/74.jpg"/>
     </Window.Background>

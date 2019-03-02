@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace PhMS
 {
@@ -55,6 +56,18 @@ namespace PhMS
             bw.Show();
         }
 
-        
+        private void time(object sender, RoutedEventArgs e)
+        {
+            DispatcherTimer dt = new DispatcherTimer();
+            dt.Interval = TimeSpan.FromSeconds(1);
+            dt.Tick += dtTicker;
+            dt.Start();
+        }
+        private int increment = 0;
+        private void dtTicker(object sender,EventArgs e )
+        {
+            increment++;
+            timer.Content = increment.ToString();
+        }
     }
 }
