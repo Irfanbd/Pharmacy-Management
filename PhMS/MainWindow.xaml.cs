@@ -69,5 +69,9 @@ namespace PhMS
             increment++;
             timer.Content = increment.ToString();
         }
+
+
+
+
     }
 }
