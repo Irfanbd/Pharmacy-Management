@@ -35,6 +35,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+        <DataGrid HorizontalAlignment="Left" Height="241" Margin="584,48,0,0" VerticalAlignment="Top" Width="376"/>
 
     </Grid>
 </Window>
