@@ -47,7 +47,7 @@
                 <ImageBrush/>
             </TextBox.Background>
         </TextBox>
-        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="125,258,0,0" VerticalAlignment="Top" Height="32" Width="222" RenderTransformOrigin="0.264,0.273" Grid.Column="1">
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="125,246,0,0" VerticalAlignment="Top" Height="32" Width="222" RenderTransformOrigin="0.264,0.273" Grid.Column="1">
             <PasswordBox.Background>
                 <ImageBrush/>
             </PasswordBox.Background>
