@@ -16,9 +16,9 @@
         <Label Content="Staff Name" HorizontalAlignment="Left" Margin="36,48,0,0" VerticalAlignment="Top" Foreground="#FFFFFCFC" Width="138" Height="44" FontSize="24"/>
         <Label Content="Staff ID" HorizontalAlignment="Left" Margin="36,112,0,0" VerticalAlignment="Top" Foreground="#FFFFFCFC" Width="138" Height="44" FontSize="24"/>
         <Label Content="Staff Salary" HorizontalAlignment="Left" Margin="36,174,0,0" VerticalAlignment="Top" Foreground="#FFFFFCFC" Width="138" Height="44" FontSize="24"/>
-        <TextBox HorizontalAlignment="Left" Height="44" Margin="255,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" TextChanged="TextBox_TextChanged" FontSize="20" Background="#FF00238F" Foreground="#FFF1E5E5"/>
-        <TextBox HorizontalAlignment="Left" Height="44" Margin="255,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" TextChanged="TextBox_TextChanged" FontSize="20" Background="#FF00238F" Foreground="#FFF1E5E5"/>
-        <TextBox HorizontalAlignment="Left" Height="44" Margin="255,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" TextChanged="TextBox_TextChanged" FontSize="20" Background="#FF00238F" Foreground="#FFF1E5E5"/>
+        <TextBox HorizontalAlignment="Left" Height="44" Margin="255,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" FontSize="20" Background="#FF00238F" Foreground="#FFF1E5E5"/>
+        <TextBox HorizontalAlignment="Left" Height="44" Margin="255,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" FontSize="20" Background="#FF00238F" Foreground="#FFF1E5E5"/>
+        <TextBox HorizontalAlignment="Left" Height="44" Margin="255,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" FontSize="20" Background="#FF00238F" Foreground="#FFF1E5E5"/>
         <Button x:Name="staffs_btn" Content="Save" HorizontalAlignment="Left" Margin="255,245,0,0" VerticalAlignment="Top" Width="119" Height="44" FontSize="20" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA" TabIndex="12">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">

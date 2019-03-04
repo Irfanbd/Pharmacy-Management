@@ -12,7 +12,7 @@
     <Grid Margin="0,0,0,-3">
 
         <Button x:Name="Madicine" Content="Medicine" HorizontalAlignment="Left" Margin="133,458,0,0" VerticalAlignment="Top" Width="186" Height="48" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD" Click="btn_medi"/>
-        <Button Content="Staff" HorizontalAlignment="Left" Margin="133,554,0,0" VerticalAlignment="Top" Width="186" Height="52" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD"/>
+        <Button x:Name="sta_btn" Content="Staff" HorizontalAlignment="Left" Margin="133,554,0,0" VerticalAlignment="Top" Width="186" Height="52" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD" Click="satffp_btn"/>
         <Button Content="Company" HorizontalAlignment="Left" Margin="133,648,0,0" VerticalAlignment="Top" Width="186" Height="58" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD"/>
         <Label Content="Pharmacy Management System" HorizontalAlignment="Left" Margin="139,50,0,0" VerticalAlignment="Top" Width="371" RenderTransformOrigin="0.555,0.148" FontSize="24" FontWeight="Bold" Height="60" BorderBrush="#FFF81919">
             <Label.RenderTransform>

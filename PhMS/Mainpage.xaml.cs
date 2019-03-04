@@ -29,6 +29,11 @@ namespace PhMS
             Medicine cx = new Medicine();
             cx.Show();
         }
-        
+
+        private void satffp_btn(object sender, RoutedEventArgs e)
+        {
+            Staff bx = new Staff();
+            bx.Show();
+        }
     }
 }
