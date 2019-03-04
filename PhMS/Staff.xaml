@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="Staff" Height="450" Width="800">
+        Title="Staff" Height="328.8" Width="976.4">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
             <GradientStop Color="Black" Offset="0"/>
@@ -16,6 +16,7 @@
         <Label Content="Staff Name" HorizontalAlignment="Left" Margin="36,48,0,0" VerticalAlignment="Top" Foreground="#FFFFFCFC" Width="138" Height="44" FontSize="24"/>
         <Label Content="Staff ID" HorizontalAlignment="Left" Margin="36,112,0,0" VerticalAlignment="Top" Foreground="#FFFFFCFC" Width="138" Height="44" FontSize="24"/>
         <Label Content="Staff Salary" HorizontalAlignment="Left" Margin="36,161,0,0" VerticalAlignment="Top" Foreground="#FFFFFCFC" Width="138" Height="44" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" Height="44" Margin="255,48,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="265" TextChanged="TextBox_TextChanged" FontSize="20" Background="#FF00238F" Foreground="#FFF1E5E5"/>
 
     </Grid>
 </Window>
