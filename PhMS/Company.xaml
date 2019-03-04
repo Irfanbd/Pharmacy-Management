@@ -5,14 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="Company" Height="450" Width="800">
+        Title="Company" Height="347.872" Width="1060.106">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
             <GradientStop Color="Black" Offset="0"/>
             <GradientStop Color="#FF00F9FF" Offset="1"/>
         </LinearGradientBrush>
     </Window.Background>
-    <Grid>
-        
+    <Grid Margin="0,0,0,-3">
+        <Label Content="Company Name" HorizontalAlignment="Left" Margin="33,73,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.966,1.953" Width="282" Height="42" FontSize="36" FontFamily="Rod" Foreground="#FFF6F6F6" FontWeight="Bold">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.598"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Company ID" HorizontalAlignment="Left" Margin="38,124,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.966,1.953" Width="282" Height="42" FontSize="36" FontFamily="Rod" Foreground="#FFF6F6F6" FontWeight="Bold">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.598"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Company Salesman" HorizontalAlignment="Left" Margin="46,186,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.966,1.953" Width="387" Height="42" FontSize="36" FontFamily="Rod" Foreground="#FFF6F6F6" FontWeight="Bold">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.598"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
     </Grid>
 </Window>
