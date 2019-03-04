@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\
+C:\Users\Arman\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\
 PhMS
 none
 false
 DEBUG;TRACE
-C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\App.xaml
-4213171868
+C:\Users\Arman\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\App.xaml
+51526220839
 
-12-1805931547
+131088396908
 14434534373
-Dashboard.xaml;Mainpage.xaml;MainWindow.xaml;Medicine.xaml;
+Dashboard.xaml;Mainpage.xaml;MainWindow.xaml;Medicine.xaml;Staff.xaml;
 
-False
+True
 
