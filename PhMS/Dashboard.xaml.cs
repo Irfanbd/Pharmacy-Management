@@ -29,7 +29,7 @@ namespace PhMS
         private void login_btn(object sender, RoutedEventArgs e)
         {
             Mainpage bw = new Mainpage();
-            if (username.Text == "irfan" && password.Password == "1234")
+            if (username.Text == "" && password.Password == "")
             {
                 bw.Show();
                 this.Close();
