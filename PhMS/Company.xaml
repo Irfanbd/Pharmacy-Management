@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="Company" Height="347.872" Width="1060.106">
+        Title="Company" Height="580.851" Width="1085.638">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
             <GradientStop Color="Black" Offset="0"/>
@@ -43,6 +43,31 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
+        <DataGrid HorizontalAlignment="Left" Height="185" Margin="54,242,0,0" VerticalAlignment="Top" Width="966"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="54,477,0,0" VerticalAlignment="Top" Width="145" Height="49" FontSize="36" FontFamily="Sitka Banner" Foreground="#FFF6F6F6" FontWeight="Bold">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF00F7FD" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="456,477,0,0" VerticalAlignment="Top" Width="145" Height="49" FontSize="36" FontFamily="Sitka Banner" Foreground="#FFF6F6F6" FontWeight="Bold">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF00F7FD" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="875,477,0,0" VerticalAlignment="Top" Width="145" Height="49" FontSize="36" FontFamily="Sitka Banner" Foreground="#FFF6F6F6" FontWeight="Bold">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF00F7FD" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>
