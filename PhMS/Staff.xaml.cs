@@ -46,5 +46,24 @@ namespace PhMS
                 MessageBox.Show("Staff Added");
             sqlcon.Close();
         }
+
+        private void btn(object sender, RoutedEventArgs e)
+        {
+            string connectionstring = @"Data Source=DESKTOP-M4UMV3O;Initial Catalog=fall16;Integrated Security=True";
+            SqlConnection sqlcon = new SqlConnection(connectionstring);
+            sqlcon.Open();
+            string commandstring = "select * from dbo.staff where sid='" + txtid.Text + "'";
+            SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
+            SqlDataReader read = sqlcmd.ExecuteReader();
+
+            while (read.Read())
+            {
+                txt_details.Text = "Staff Name : " + read[0].ToString();
+                txt_details.Text += "\nStaff Id : " + read[1].ToString();
+                txt_details.Text += "\nStaff Salary : " + read[2].ToString();
+
+            }
+            sqlcon.Close();
+        }
     }
 }

@@ -27,7 +27,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="staffc_btn" Content="Clear" HorizontalAlignment="Left" Margin="410,245,0,0" VerticalAlignment="Top" Width="110" Height="44" FontSize="20" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA" TabIndex="12">
+        <Button x:Name="staffc_btn" Content="Search" HorizontalAlignment="Left" Margin="410,245,0,0" VerticalAlignment="Top" Width="110" Height="44" FontSize="20" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA" TabIndex="12" Click="btn">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF5B2CCC" Offset="0"/>
@@ -35,7 +35,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <DataGrid HorizontalAlignment="Left" Height="241" Margin="10,305,0,0" VerticalAlignment="Top" Width="948"/>
+        <TextBlock x:Name="txt_details" HorizontalAlignment="Left" Margin="36,326,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="194" Width="898" Background="#FFB06B6B" Foreground="White" FontFamily="Times New Roman" FontSize="24"/>
 
     </Grid>
 </Window>
