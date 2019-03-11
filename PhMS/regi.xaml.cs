@@ -61,6 +61,11 @@ namespace PhMS
             pbpass.Clear();
         }
 
-        
+        private void hp(object sender, RoutedEventArgs e)
+        {
+            MainWindow yf = new MainWindow();
+            yf.Show();
+            this.Close();
+        }
     }
 }

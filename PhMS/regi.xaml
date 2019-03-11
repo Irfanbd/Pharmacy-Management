@@ -39,7 +39,12 @@
                 <ImageBrush/>
             </Button.Background>
         </Button>
-        <Button x:Name="clear_scr" Content="Clear" HorizontalAlignment="Left" Margin="452,313,0,0" VerticalAlignment="Top" Width="176" Height="29" FontWeight="Bold" FontSize="18" Foreground="#FFE49FEF" Click="Clear">
+        <Button x:Name="clear_scr" Content="Clear" HorizontalAlignment="Left" Margin="394,313,0,0" VerticalAlignment="Top" Width="76" Height="29" FontWeight="Bold" FontSize="18" Foreground="#FFE49FEF" Click="Clear">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="Homepage" HorizontalAlignment="Left" Margin="517,313,0,0" VerticalAlignment="Top" Width="106" Height="30" Foreground="#FFFF0057" FontSize="18" FontWeight="Bold" Click="hp">
             <Button.Background>
                 <ImageBrush/>
             </Button.Background>

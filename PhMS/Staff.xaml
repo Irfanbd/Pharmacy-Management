@@ -36,6 +36,24 @@
             </Button.Background>
         </Button>
         <TextBlock x:Name="txt_details" HorizontalAlignment="Left" Margin="36,326,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="194" Width="898" Background="#FFB06B6B" Foreground="White" FontFamily="Times New Roman" FontSize="24"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="585,245,0,0" VerticalAlignment="Top" Width="103" Height="44" FontSize="20" Foreground="#FFF8EEEE" FontWeight="Bold" Click="dd">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF4050D3" Offset="0"/>
+                    <GradientStop Color="#FF0F93E0" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Homepage" HorizontalAlignment="Left" Margin="712,243,0,0" VerticalAlignment="Top" Width="106" Height="44" Foreground="#FFFF0057" FontSize="18" FontWeight="Bold" Click="hpg" RenderTransformOrigin="6.373,-10.408">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="Dashboard" HorizontalAlignment="Left" Margin="852,243,0,0" VerticalAlignment="Top" Width="106" Height="44" Foreground="#FFFF0057" FontSize="18" FontWeight="Bold" Click="gdf" RenderTransformOrigin="6.373,-10.408">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>

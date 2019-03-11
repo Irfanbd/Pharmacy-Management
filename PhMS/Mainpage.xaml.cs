@@ -28,18 +28,21 @@ namespace PhMS
         {
             Medicine cx = new Medicine();
             cx.Show();
+            this.Close();
         }
 
         private void satffp_btn(object sender, RoutedEventArgs e)
         {
             Staff bx = new Staff();
             bx.Show();
+            this.Close();
         }
 
         private void btn_company(object sender, RoutedEventArgs e)
         {
             Company mx = new Company();
             mx.Show();
+            this.Close();
         }
     }
 }

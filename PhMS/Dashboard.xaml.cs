@@ -80,5 +80,19 @@ namespace PhMS
         {
             Close();
         }
+
+        private void hpg(object sender, RoutedEventArgs e)
+        {
+            MainWindow yf = new MainWindow();
+            yf.Show();
+            this.Close();
+        }
+
+        private void gtr(object sender, RoutedEventArgs e)
+        {
+            regi yf = new regi();
+            yf.Show();
+            this.Close();
+        }
     }
 }

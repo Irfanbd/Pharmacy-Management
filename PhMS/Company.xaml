@@ -51,7 +51,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="btn_save" Content="Save" HorizontalAlignment="Left" Margin="456,477,0,0" VerticalAlignment="Top" Width="145" Height="49" FontSize="36" FontFamily="Sitka Banner" Foreground="#FFF6F6F6" FontWeight="Bold" Click="click">
+        <Button x:Name="btn_save" Content="Save" HorizontalAlignment="Left" Margin="324,477,0,0" VerticalAlignment="Top" Width="145" Height="49" FontSize="36" FontFamily="Sitka Banner" Foreground="#FFF6F6F6" FontWeight="Bold" Click="click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -59,7 +59,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="Clear" HorizontalAlignment="Left" Margin="875,477,0,0" VerticalAlignment="Top" Width="145" Height="49" FontSize="36" FontFamily="Sitka Banner" Foreground="#FFF6F6F6" FontWeight="Bold">
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="538,477,0,0" VerticalAlignment="Top" Width="145" Height="49" FontSize="36" FontFamily="Sitka Banner" Foreground="#FFF6F6F6" FontWeight="Bold" Click="cle">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -92,6 +92,16 @@
             </TextBox.Background>
         </TextBox>
         <TextBlock x:Name="txt_details" HorizontalAlignment="Left" Margin="54,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="118" Width="966" Background="#FFB06B6B" Foreground="White" FontFamily="Times New Roman" FontSize="24"/>
+        <Button Content="Homepage" HorizontalAlignment="Left" Margin="759,477,0,0" VerticalAlignment="Top" Width="106" Height="44" Foreground="#FFFF0057" FontSize="18" FontWeight="Bold" Click="hpg" RenderTransformOrigin="6.373,-10.408">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="Dashboard" HorizontalAlignment="Left" Margin="914,477,0,0" VerticalAlignment="Top" Width="106" Height="44" Foreground="#FFFF0057" FontSize="18" FontWeight="Bold" Click="gdf" RenderTransformOrigin="6.373,-10.408">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>

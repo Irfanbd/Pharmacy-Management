@@ -32,7 +32,7 @@
         <TextBox x:Name="txt_id" HorizontalAlignment="Left" Height="31" Margin="265,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Background="#FF2E6DC9" Foreground="#FFF3F3F3" FontSize="20" FontWeight="Bold"/>
         <TextBox x:Name="txt_sadvice" HorizontalAlignment="Left" Height="31" Margin="265,391,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Background="#FF2E6DC9" Foreground="#FFF3F3F3" FontSize="20" FontWeight="Bold"/>
         <DatePicker x:Name="date" HorizontalAlignment="Left" Margin="265,258,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Background="#FF231D60" Foreground="#FFE6593D"/>
-        <Button x:Name="save_btn" Content="Save" HorizontalAlignment="Left" Margin="265,591,0,0" VerticalAlignment="Top" Width="136" Height="44" FontSize="20" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA" TabIndex="12" Click="btn_save">
+        <Button x:Name="save_btn" Content="Save" HorizontalAlignment="Left" Margin="265,593,0,0" VerticalAlignment="Top" Width="136" Height="44" FontSize="20" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA" TabIndex="12" Click="btn_save">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF5B2CCC" Offset="0"/>
@@ -44,7 +44,7 @@
         <Label Content="Mobile Number            :" HorizontalAlignment="Left" Margin="28,533,0,0" VerticalAlignment="Top" Width="237" Height="44" FontSize="20" FontWeight="Bold" Foreground="White"/>
         <TextBox x:Name="txt_sname" HorizontalAlignment="Left" Height="31" Margin="265,484,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Background="#FF2E6DC9" Foreground="#FFF3F3F3" FontSize="20" FontWeight="Bold"/>
         <TextBox x:Name="txt_mnumber" HorizontalAlignment="Left" Height="31" Margin="265,533,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Background="#FF2E6DC9" Foreground="#FFF3F3F3" FontSize="20" FontWeight="Bold"/>
-        <Button x:Name="clear_screen" Content="Search" HorizontalAlignment="Left" Margin="440,591,0,0" VerticalAlignment="Top" Width="136" Height="44" FontSize="20" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA" RenderTransformOrigin="2.044,0.727" Click="btn_src">
+        <Button x:Name="clear_screen" Content="Search" HorizontalAlignment="Left" Margin="406,591,0,0" VerticalAlignment="Top" Width="136" Height="44" FontSize="20" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA" RenderTransformOrigin="2.044,0.727" Click="btn_src">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF5B2CCC" Offset="0"/>
@@ -53,5 +53,23 @@
             </Button.Background>
         </Button>
         <TextBlock x:Name="txt_details" HorizontalAlignment="Left" Margin="692,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="564" Width="407" Foreground="#FFF9F9F9" FontSize="18" Background="#FFCFA1A1"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="547,593,0,0" VerticalAlignment="Top" Width="126" Height="44" Foreground="#FFEAEDF6" FontSize="20" FontWeight="Bold" RenderTransformOrigin="0.839,0.671" Click="cv">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF3F52D4" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Homepage" HorizontalAlignment="Left" Margin="692,8,0,0" VerticalAlignment="Top" Width="106" Height="44" Foreground="#FFFF0057" FontSize="18" FontWeight="Bold" Click="hpg" RenderTransformOrigin="6.373,-10.408">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="Dashboard" HorizontalAlignment="Left" Margin="832,8,0,0" VerticalAlignment="Top" Width="106" Height="44" Foreground="#FFFF0057" FontSize="18" FontWeight="Bold" Click="gdf" RenderTransformOrigin="6.373,-10.408">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>

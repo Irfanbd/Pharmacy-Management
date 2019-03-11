@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="Dashboard" Height="419.148" Width="517.918">
+        Title="Dashboard" Height="444.978" Width="508.525">
     <Window.Background>
         <ImageBrush ImageSource="Image/74.jpg"/>
     </Window.Background>
@@ -52,7 +52,7 @@
                 <ImageBrush/>
             </PasswordBox.Background>
         </PasswordBox>
-        <Button x:Name="login" Content="Login" HorizontalAlignment="Left" Margin="125,314,0,0" VerticalAlignment="Top" Width="75" Height="33" FontSize="16" FontWeight="Bold" Click="login_btn" Grid.Column="1" FontFamily="Snap ITC">
+        <Button x:Name="login" Content="Login" HorizontalAlignment="Left" Margin="156,314,0,0" VerticalAlignment="Top" Width="75" Height="33" FontSize="16" FontWeight="Bold" Click="login_btn" Grid.Column="1" FontFamily="Snap ITC">
             <Button.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -72,7 +72,7 @@
                 </LinearGradientBrush>
             </Button.BorderBrush>
         </Button>
-        <Button x:Name="exit_btn" Content="Exit" HorizontalAlignment="Left" Margin="272,314,0,0" VerticalAlignment="Top" Width="75" Height="33" FontSize="16" FontWeight="Bold" Click="exit" Grid.Column="1" FontFamily="Snap ITC">
+        <Button x:Name="exit_btn" Content="Exit" HorizontalAlignment="Left" Margin="263,314,0,0" VerticalAlignment="Top" Width="75" Height="33" FontSize="16" FontWeight="Bold" Click="exit" Grid.Column="1" FontFamily="Snap ITC">
             <Button.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -91,6 +91,16 @@
                     <GradientStop Color="White" Offset="1"/>
                 </LinearGradientBrush>
             </Button.BorderBrush>
+        </Button>
+        <Button Content="Homepage" HorizontalAlignment="Left" Margin="26,362,0,0" VerticalAlignment="Top" Width="106" Height="30" Foreground="#FFFF0057" FontSize="18" FontWeight="Bold" Click="hpg" Grid.Column="1">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="Create Account" HorizontalAlignment="Left" Margin="317,362,0,0" VerticalAlignment="Top" Width="149" Height="39" Foreground="#FFFF0057" FontSize="18" FontWeight="Bold" Click="gtr" Grid.Column="1">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
         </Button>
 
     </Grid>

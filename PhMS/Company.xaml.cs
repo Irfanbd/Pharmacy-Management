@@ -64,5 +64,33 @@ namespace PhMS
             }
             sqlcon.Close();
         }
+
+        private void cle(object sender, RoutedEventArgs e)
+        {
+            clear();
+        }
+        void clear()
+        {
+            txtcn.Clear();
+            txtcid.Clear();
+            txtcs.Clear();
+
+
+
+        }
+
+        private void hpg(object sender, RoutedEventArgs e)
+        {
+            MainWindow mx = new MainWindow();
+            mx.Show();
+            this.Close();
+        }
+
+        private void gdf(object sender, RoutedEventArgs e)
+        {
+            Mainpage mx = new Mainpage();
+            mx.Show();
+            this.Close();
+        }
     }
 }

@@ -90,5 +90,38 @@ namespace PhMS
             }
             sqlcon.Close();
         }
+
+        private void cv(object sender, RoutedEventArgs e)
+        {
+            clear();
+        }
+        void clear()
+        {
+            txt_id.Clear();
+            txt_name.Clear();
+            txt_gname.Clear();
+            txt_cname.Clear();
+            
+            txt_ppeice.Clear();
+            txt_sprice.Clear();
+            txt_sadvice.Clear();
+            txt_mcountry.Clear();
+            txt_sname.Clear();
+            txt_mnumber.Clear();
+        }
+
+        private void hpg(object sender, RoutedEventArgs e)
+        {
+            MainWindow mx = new MainWindow();
+            mx.Show();
+            this.Close();
+        }
+
+        private void gdf(object sender, RoutedEventArgs e)
+        {
+            Mainpage mx = new Mainpage();
+            mx.Show();
+            this.Close();
+        }
     }
 }

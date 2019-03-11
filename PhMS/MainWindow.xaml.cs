@@ -46,14 +46,17 @@ namespace PhMS
 
         private void admin_btn(object sender, RoutedEventArgs e)
         {
+            
             Dashboard bw = new Dashboard();
             bw.Show();
+            this.Close();
         }
 
         private void Staff_btn_Click(object sender, RoutedEventArgs e)
         {
             Dashboard bw = new Dashboard();
             bw.Show();
+            this.Close();
         }
 
         private void time(object sender, RoutedEventArgs e)
@@ -74,6 +77,7 @@ namespace PhMS
         {
             regi nx = new regi();
             nx.Show();
+            this.Close();
         }
     }
 }
