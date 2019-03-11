@@ -142,3 +142,30 @@ H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.Gen
 H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.CoreCompileInputs.cache
 H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\PhMS.exe
 H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\PhMS.pdb
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\bin\Debug\PhMS.exe.config
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\bin\Debug\PhMS.exe
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\bin\Debug\PhMS.pdb
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\PhMS.csprojAssemblyReference.cache
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\Company.g.cs
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\Dashboard.g.cs
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\Mainpage.g.cs
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\MainWindow.g.cs
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\Medicine.g.cs
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\regi.g.cs
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\Staff.g.cs
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\App.g.cs
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\PhMS_MarkupCompile.cache
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\PhMS_MarkupCompile.lref
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\Company.baml
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\Dashboard.baml
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\Mainpage.baml
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\MainWindow.baml
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\Medicine.baml
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\regi.baml
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\Staff.baml
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\PhMS.g.resources
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\PhMS.Properties.Resources.resources
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.GenerateResource.cache
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.CoreCompileInputs.cache
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\PhMS.exe
+C:\Users\Hackbook\source\repos\Pharmacy-Management\PhMS\obj\Debug\PhMS.pdb
