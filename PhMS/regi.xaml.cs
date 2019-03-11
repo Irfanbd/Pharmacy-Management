@@ -48,5 +48,19 @@ namespace PhMS
                 MessageBox.Show("Account Created Successfully");
             sqlcon.Close();
         }
+
+        private void Clear(object sender, RoutedEventArgs e)
+        {
+            clear();
+        }
+        void clear()
+        {
+            txt_fullname.Clear();
+            txtusername.Clear();
+                txtemail.Clear();
+            pbpass.Clear();
+        }
+
+        
     }
 }

@@ -34,7 +34,12 @@
                 <ImageBrush/>
             </PasswordBox.Background>
         </PasswordBox>
-        <Button Content="Create Account" HorizontalAlignment="Left" Margin="316,311,0,0" VerticalAlignment="Top" Width="232" Height="29" FontSize="20" Foreground="#FFF6A4E4" FontWeight="Bold" Click="btn_crt">
+        <Button Content="Create Account" HorizontalAlignment="Left" Margin="206,311,0,0" VerticalAlignment="Top" Width="170" Height="29" FontSize="20" Foreground="#FFF6A4E4" FontWeight="Bold" Click="btn_crt">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="clear_scr" Content="Clear" HorizontalAlignment="Left" Margin="452,313,0,0" VerticalAlignment="Top" Width="176" Height="29" FontWeight="Bold" FontSize="18" Foreground="#FFE49FEF" Click="Clear">
             <Button.Background>
                 <ImageBrush/>
             </Button.Background>
