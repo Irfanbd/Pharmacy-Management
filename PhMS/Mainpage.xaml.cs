@@ -35,5 +35,11 @@ namespace PhMS
             Staff bx = new Staff();
             bx.Show();
         }
+
+        private void btn_company(object sender, RoutedEventArgs e)
+        {
+            Company mx = new Company();
+            mx.Show();
+        }
     }
 }

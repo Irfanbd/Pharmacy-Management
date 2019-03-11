@@ -70,8 +70,10 @@ namespace PhMS
             timer.Content = increment.ToString();
         }
 
-
-
-
+        private void btn_cre(object sender, RoutedEventArgs e)
+        {
+            regi nx = new regi();
+            nx.Show();
+        }
     }
 }

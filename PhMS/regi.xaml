@@ -1,0 +1,44 @@
+﻿<Window x:Class="PhMS.regi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhMS"
+        mc:Ignorable="d"
+        Title="regi" Height="450" Width="888.12">
+    <Window.Background>
+        <ImageBrush ImageSource="Image/ab2.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Label Content="Full Name" HorizontalAlignment="Left" Margin="216,102,0,0" VerticalAlignment="Top" Width="124" FontSize="22" FontWeight="Bold"/>
+        <Label Content="User Name" HorizontalAlignment="Left" Margin="216,146,0,0" VerticalAlignment="Top" Width="124" FontSize="22" FontWeight="Bold"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="216,185,0,0" VerticalAlignment="Top" Width="124" FontSize="22" FontWeight="Bold"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="216,229,0,0" VerticalAlignment="Top" Width="124" FontSize="22" FontWeight="Bold"/>
+        <TextBox x:Name="txt_fullname" HorizontalAlignment="Left" Height="28" Margin="377,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" FontSize="16" Foreground="#FFF4F5F8" FontWeight="Bold">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="txtusername" HorizontalAlignment="Left" Height="28" Margin="377,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" FontSize="16" Foreground="#FFF4F5F8" FontWeight="Bold">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="txtemail" HorizontalAlignment="Left" Height="28" Margin="377,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" FontSize="16" Foreground="#FFF4F5F8" FontWeight="Bold">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <PasswordBox x:Name="pbpass" HorizontalAlignment="Left" Margin="377,229,0,0" VerticalAlignment="Top" Width="232" Height="29" Foreground="#FFF1F3F6" FontWeight="Bold">
+            <PasswordBox.Background>
+                <ImageBrush/>
+            </PasswordBox.Background>
+        </PasswordBox>
+        <Button Content="Create Account" HorizontalAlignment="Left" Margin="316,311,0,0" VerticalAlignment="Top" Width="232" Height="29" FontSize="20" Foreground="#FFF6A4E4" FontWeight="Bold" Click="btn_crt">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

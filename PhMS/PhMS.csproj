@@ -59,6 +59,9 @@
     <Compile Include="Company.xaml.cs">
       <DependentUpon>Company.xaml</DependentUpon>
     </Compile>
+    <Compile Include="regi.xaml.cs">
+      <DependentUpon>regi.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Staff.xaml.cs">
       <DependentUpon>Staff.xaml</DependentUpon>
     </Compile>
@@ -93,6 +96,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Medicine.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="regi.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -175,6 +182,9 @@
     <Resource Include="Image\close.png" />
     <Resource Include="Image\maximize.png" />
     <Resource Include="Image\mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\ab2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

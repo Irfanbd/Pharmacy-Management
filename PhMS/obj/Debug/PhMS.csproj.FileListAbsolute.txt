@@ -82,3 +82,63 @@ C:\Users\Jerin\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.cspr
 C:\Users\Jerin\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.CoreCompileInputs.cache
 C:\Users\Jerin\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.exe
 C:\Users\Jerin\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.pdb
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Company.g.cs
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Staff.g.cs
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Company.baml
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Staff.baml
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\regi.g.cs
+C:\Users\HackBook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\regi.baml
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\bin\Debug\PhMS.exe.config
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\bin\Debug\PhMS.exe
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\bin\Debug\PhMS.pdb
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\PhMS.csprojAssemblyReference.cache
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\Company.g.cs
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\Dashboard.g.cs
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\Mainpage.g.cs
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\MainWindow.g.cs
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\Medicine.g.cs
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\regi.g.cs
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\Staff.g.cs
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\App.g.cs
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\PhMS_MarkupCompile.cache
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\PhMS_MarkupCompile.lref
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\Company.baml
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\Dashboard.baml
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\Mainpage.baml
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\MainWindow.baml
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\Medicine.baml
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\regi.baml
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\Staff.baml
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\PhMS.g.resources
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\PhMS.Properties.Resources.resources
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.GenerateResource.cache
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.CoreCompileInputs.cache
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\PhMS.exe
+C:\Users\Towhid Hasan\Desktop\Pharmacy-Management\PhMS\obj\Debug\PhMS.pdb
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\bin\Debug\PhMS.exe.config
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\bin\Debug\PhMS.exe
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\bin\Debug\PhMS.pdb
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\PhMS.csprojAssemblyReference.cache
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\Company.g.cs
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\Dashboard.g.cs
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\Mainpage.g.cs
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\MainWindow.g.cs
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\Medicine.g.cs
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\regi.g.cs
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\Staff.g.cs
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\App.g.cs
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\PhMS_MarkupCompile.cache
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\PhMS_MarkupCompile.lref
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\Company.baml
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\Dashboard.baml
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\Mainpage.baml
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\MainWindow.baml
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\Medicine.baml
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\regi.baml
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\Staff.baml
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\PhMS.g.resources
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\PhMS.Properties.Resources.resources
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.GenerateResource.cache
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.CoreCompileInputs.cache
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\PhMS.exe
+H:\NWU\01.Semister\New folder\Pharmacy-Management\PhMS\obj\Debug\PhMS.pdb

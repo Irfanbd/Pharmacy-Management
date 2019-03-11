@@ -28,7 +28,7 @@
                 <ImageBrush/>
             </Label.Background>
         </Label>
-        <Button x:Name="admin_b" Content="Admin" HorizontalAlignment="Left" Margin="234,161,0,0" VerticalAlignment="Top" Width="154" Height="59" FontSize="36" FontFamily="Sitka Display" FontWeight="SemiBold" Foreground="White" Click="admin_btn" Grid.Column="1" RenderTransformOrigin="0.416,0.102">
+        <Button x:Name="admin_b" Content="Admin" HorizontalAlignment="Left" Margin="156,161,0,0" VerticalAlignment="Top" Width="154" Height="59" FontSize="36" FontFamily="Sitka Display" FontWeight="SemiBold" Foreground="White" Click="admin_btn" Grid.Column="1" RenderTransformOrigin="0.416,0.102">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFC2195F" Offset="0"/>
@@ -36,7 +36,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="staff_btn" Content="Staff" HorizontalAlignment="Left" Margin="429,161,0,0" VerticalAlignment="Top" Width="167" Height="59" FontSize="36" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA" Click="Staff_btn_Click" Grid.Column="1">
+        <Button x:Name="staff_btn" Content="Staff" HorizontalAlignment="Left" Margin="327,161,0,0" VerticalAlignment="Top" Width="167" Height="59" FontSize="36" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA" Click="Staff_btn_Click" Grid.Column="1">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF5B2CCC" Offset="0"/>
@@ -52,6 +52,14 @@
         <Label x:Name="timer" Content="Time :" Grid.Column="1" HorizontalAlignment="Left" Margin="105,387,0,0" VerticalAlignment="Top" Foreground="#FFF9F9F9" FontWeight="Bold" RenderTransformOrigin="0.545,0.231" FontSize="18" Loaded="time"/>
         <Label Content="Run Time :" Grid.Column="1" HorizontalAlignment="Left" Margin="0,387,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFF3F3F3" FontSize="18" Width="100"/>
         <Label x:Name="culture" Content="Time and date" Grid.Column="1" HorizontalAlignment="Left" Margin="172,387,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFF3F3F3" FontSize="18" Width="138"/>
+        <Button x:Name="btn_create" Content="Create Account" Grid.Column="1" HorizontalAlignment="Left" Margin="511,161,0,0" VerticalAlignment="Top" Width="165" Height="59" FontSize="22" FontWeight="Bold" Foreground="#FFF6F5EE" Click="btn_cre">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF01B0DE" Offset="0"/>
+                    <GradientStop Color="#FF01C48C" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>

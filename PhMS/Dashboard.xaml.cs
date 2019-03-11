@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace PhMS
 {
@@ -29,7 +31,7 @@ namespace PhMS
         private void login_btn(object sender, RoutedEventArgs e)
         {
             Mainpage bw = new Mainpage();
-            if (username.Text == "" && password.Password == "")
+            /*if (username.Text == "" && password.Password == "")
             {
                 bw.Show();
                 this.Close();
@@ -41,8 +43,37 @@ namespace PhMS
                 username.Text = "";
                 password.Password = "";
             }
-            
-            
+            */
+            SqlConnection sqlcon = new SqlConnection(@"Data Source=DESKTOP-M4UMV3O;Initial Catalog=fall16;Integrated Security=True");
+            try
+            {
+                if (sqlcon.State == ConnectionState.Closed)
+                    sqlcon.Open();
+                string commandstring = "select COUNT(1) from phms WHERE username=@username AND password=@password";
+                SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
+                sqlcmd.CommandType = CommandType.Text;
+                sqlcmd.Parameters.AddWithValue("@username", username.Text);
+                sqlcmd.Parameters.AddWithValue("@password", password.Password);
+                int count = Convert.ToInt32(sqlcmd.ExecuteScalar());
+                if (count == 1)
+                {
+                    Mainpage ad = new Mainpage();
+                    ad.Show();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Username or Password Not Matched Try Again");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                sqlcon.Close();
+            }
         }
 
         private void exit(object sender, RoutedEventArgs e)
