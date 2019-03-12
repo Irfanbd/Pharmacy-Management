@@ -67,14 +67,6 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="Print" HorizontalAlignment="Left" Margin="456,368,0,0" VerticalAlignment="Top" Width="75" Height="34" FontSize="18" Foreground="#FFE7EAF4" FontWeight="Bold" RenderTransformOrigin="2.501,0.58">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FF340042" Offset="0"/>
-                    <GradientStop Color="#FFB610DF" Offset="1"/>
-                </LinearGradientBrush>
-            </Button.Background>
-        </Button>
         <Button Content="Clear" HorizontalAlignment="Left" Margin="550,368,0,0" VerticalAlignment="Top" Width="75" Height="34" FontSize="18" Foreground="#FFE7EAF4" FontWeight="Bold" Click="cv">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
