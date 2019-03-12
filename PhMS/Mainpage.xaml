@@ -33,6 +33,11 @@
                 <ImageBrush/>
             </Label.Background>
         </Label>
+        <Button Content="Bill" HorizontalAlignment="Left" Margin="175,139,0,0" VerticalAlignment="Top" Width="276" Height="70" FontSize="36" FontWeight="Bold" Foreground="#FF0076C5" Click="bi">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 

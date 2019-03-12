@@ -196,3 +196,5 @@ C:\Users\Hackbook\Documents\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.Gener
 C:\Users\Hackbook\Documents\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.CoreCompileInputs.cache
 C:\Users\Hackbook\Documents\Pharmacy-Management\PhMS\obj\Debug\PhMS.exe
 C:\Users\Hackbook\Documents\Pharmacy-Management\PhMS\obj\Debug\PhMS.pdb
+C:\Users\Hackbook\source\repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Account.g.cs
+C:\Users\Hackbook\source\repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Account.baml

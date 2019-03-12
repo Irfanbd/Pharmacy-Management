@@ -44,5 +44,12 @@ namespace PhMS
             mx.Show();
             this.Close();
         }
+
+        private void bi(object sender, RoutedEventArgs e)
+        {
+            Account rx = new Account();
+            rx.Show();
+            this.Close();
+        }
     }
 }
