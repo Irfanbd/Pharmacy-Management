@@ -14,22 +14,22 @@
         <Label Content="User Name" HorizontalAlignment="Left" Margin="216,146,0,0" VerticalAlignment="Top" Width="124" FontSize="22" FontWeight="Bold"/>
         <Label Content="Email" HorizontalAlignment="Left" Margin="216,185,0,0" VerticalAlignment="Top" Width="124" FontSize="22" FontWeight="Bold"/>
         <Label Content="Password" HorizontalAlignment="Left" Margin="216,229,0,0" VerticalAlignment="Top" Width="124" FontSize="22" FontWeight="Bold"/>
-        <TextBox x:Name="txt_fullname" HorizontalAlignment="Left" Height="28" Margin="377,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" FontSize="16" Foreground="#FFF4F5F8" FontWeight="Bold">
+        <TextBox x:Name="txt_fullname" HorizontalAlignment="Left" Height="28" Margin="377,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" FontSize="18" Foreground="#FF0F46EC" FontWeight="Bold">
             <TextBox.Background>
                 <ImageBrush/>
             </TextBox.Background>
         </TextBox>
-        <TextBox x:Name="txtusername" HorizontalAlignment="Left" Height="28" Margin="377,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" FontSize="16" Foreground="#FFF4F5F8" FontWeight="Bold">
+        <TextBox x:Name="txtusername" HorizontalAlignment="Left" Height="28" Margin="377,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" FontSize="16" Foreground="#FF104AF7" FontWeight="Bold">
             <TextBox.Background>
                 <ImageBrush/>
             </TextBox.Background>
         </TextBox>
-        <TextBox x:Name="txtemail" HorizontalAlignment="Left" Height="28" Margin="377,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" FontSize="16" Foreground="#FFF4F5F8" FontWeight="Bold">
+        <TextBox x:Name="txtemail" HorizontalAlignment="Left" Height="28" Margin="377,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" FontSize="16" Foreground="#FF1F50E4" FontWeight="Bold">
             <TextBox.Background>
                 <ImageBrush/>
             </TextBox.Background>
         </TextBox>
-        <PasswordBox x:Name="pbpass" HorizontalAlignment="Left" Margin="377,229,0,0" VerticalAlignment="Top" Width="232" Height="29" Foreground="#FFF1F3F6" FontWeight="Bold">
+        <PasswordBox x:Name="pbpass" HorizontalAlignment="Left" Margin="377,229,0,0" VerticalAlignment="Top" Width="232" Height="29" Foreground="#FF1366E2" FontWeight="Bold">
             <PasswordBox.Background>
                 <ImageBrush/>
             </PasswordBox.Background>

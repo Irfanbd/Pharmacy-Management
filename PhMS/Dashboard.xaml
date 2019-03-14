@@ -42,17 +42,17 @@
                 </LinearGradientBrush>
             </Label.Foreground>
         </Label>
-        <TextBox x:Name="username" HorizontalAlignment="Left" Height="31" Margin="125,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" Grid.Column="1">
+        <TextBox x:Name="username" HorizontalAlignment="Left" Height="31" Margin="125,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" Grid.Column="1" FontSize="16" FontWeight="Bold">
             <TextBox.Background>
                 <ImageBrush/>
             </TextBox.Background>
         </TextBox>
-        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="125,246,0,0" VerticalAlignment="Top" Height="32" Width="222" RenderTransformOrigin="0.264,0.273" Grid.Column="1">
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="125,246,0,0" VerticalAlignment="Top" Height="32" Width="222" RenderTransformOrigin="0.264,0.273" Grid.Column="1" FontSize="16" FontWeight="Bold">
             <PasswordBox.Background>
                 <ImageBrush/>
             </PasswordBox.Background>
         </PasswordBox>
-        <Button x:Name="login" Content="Login" HorizontalAlignment="Left" Margin="156,314,0,0" VerticalAlignment="Top" Width="75" Height="33" FontSize="16" FontWeight="Bold" Click="login_btn" Grid.Column="1" FontFamily="Snap ITC">
+        <Button x:Name="login" Content="Login" HorizontalAlignment="Left" Margin="125,314,0,0" VerticalAlignment="Top" Width="75" Height="33" FontSize="16" FontWeight="Bold" Click="login_btn" Grid.Column="1" FontFamily="Snap ITC">
             <Button.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -72,7 +72,7 @@
                 </LinearGradientBrush>
             </Button.BorderBrush>
         </Button>
-        <Button x:Name="exit_btn" Content="Exit" HorizontalAlignment="Left" Margin="263,314,0,0" VerticalAlignment="Top" Width="75" Height="33" FontSize="16" FontWeight="Bold" Click="exit" Grid.Column="1" FontFamily="Snap ITC">
+        <Button x:Name="exit_btn" Content="Exit" HorizontalAlignment="Left" Margin="272,314,0,0" VerticalAlignment="Top" Width="75" Height="33" FontSize="16" FontWeight="Bold" Click="exit" Grid.Column="1" FontFamily="Snap ITC">
             <Button.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
