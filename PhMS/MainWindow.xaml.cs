@@ -23,7 +23,9 @@ namespace PhMS
     {
         public MainWindow()
         {
+            
             InitializeComponent();
+            
         }
 
         

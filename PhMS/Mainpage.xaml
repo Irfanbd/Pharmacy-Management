@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="Mainpage" Height="874.802" Width="604.576">
+        Title="Mainpage" Height="730.802" Width="604.576">
     <Window.Background>
         <ImageBrush ImageSource="Image/dash.jpg"/>
     </Window.Background>
     <Grid Margin="0,0,0,-3">
 
-        <Button x:Name="Madicine" Content="Medicine" HorizontalAlignment="Left" Margin="133,458,0,0" VerticalAlignment="Top" Width="186" Height="48" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD" Click="btn_medi"/>
-        <Button x:Name="sta_btn" Content="Staff" HorizontalAlignment="Left" Margin="133,554,0,0" VerticalAlignment="Top" Width="186" Height="52" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD" Click="satffp_btn"/>
-        <Button x:Name="btn_c" Content="Company" HorizontalAlignment="Left" Margin="133,648,0,0" VerticalAlignment="Top" Width="186" Height="58" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD" Click="btn_company"/>
+        <Button x:Name="Madicine" Content="Medicine" HorizontalAlignment="Left" Margin="142,377,0,0" VerticalAlignment="Top" Width="186" Height="48" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD" Click="btn_medi"/>
+        <Button x:Name="sta_btn" Content="Staff" HorizontalAlignment="Left" Margin="142,458,0,0" VerticalAlignment="Top" Width="186" Height="47" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD" Click="satffp_btn"/>
+        <Button x:Name="btn_c" Content="Company" HorizontalAlignment="Left" Margin="142,535,0,0" VerticalAlignment="Top" Width="186" Height="52" FontSize="36" Foreground="#FFF0F0F0" Background="#FF0071BD" Click="btn_company"/>
         <Label Content="Pharmacy Management System" HorizontalAlignment="Left" Margin="139,50,0,0" VerticalAlignment="Top" Width="371" RenderTransformOrigin="0.555,0.148" FontSize="24" FontWeight="Bold" Height="60" BorderBrush="#FFF81919">
             <Label.RenderTransform>
                 <TransformGroup>

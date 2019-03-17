@@ -198,3 +198,7 @@ C:\Users\Hackbook\Documents\Pharmacy-Management\PhMS\obj\Debug\PhMS.exe
 C:\Users\Hackbook\Documents\Pharmacy-Management\PhMS\obj\Debug\PhMS.pdb
 C:\Users\Hackbook\source\repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Account.g.cs
 C:\Users\Hackbook\source\repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Account.baml
+C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\bin\Debug\SplashScreen.dll
+C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.CopyComplete
+C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\SplashScreenWindow.g.cs
+C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\SplashScreenWindow.baml

@@ -1,0 +1,15 @@
+﻿<Window x:Class="PhMS.SplashScreenWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Height="50"
+        Width="200">
+    <Grid>
+        <ProgressBar x:Name="progressBar" />
+        <TextBlock HorizontalAlignment="Center"
+                   VerticalAlignment="Center">Please Wait  Loading...</TextBlock>
+    </Grid>
+</Window>
+

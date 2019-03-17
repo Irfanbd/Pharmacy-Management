@@ -62,7 +62,7 @@ namespace PhMS
             string connectionstring = @"Data Source=DESKTOP-M4UMV3O;Initial Catalog=fall16;Integrated Security=True";
             SqlConnection sqlcon = new SqlConnection(connectionstring);
             sqlcon.Open();
-            string commandstring = "select * from dbo.account where mid='" + txt_bill.Text + "'";
+            string commandstring = "select * from dbo.account where bill='" + txt_bill.Text + "'";
             SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
             SqlDataReader read = sqlcmd.ExecuteReader();
 

@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="Medicine" Height="693" Width="1166" Background="#FF2E6DC9">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="369*"/>
+            <ColumnDefinition Width="17*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="Black" Offset="0"/>
