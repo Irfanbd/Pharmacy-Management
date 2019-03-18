@@ -28,7 +28,7 @@ namespace PhMS
 
         private void btn_save(object sender, RoutedEventArgs e)
         {
-            String bill, edate, mid, mname,cname,rdname,ta;
+            String bill, edate, mid, mname, cname, rdname, ta;
             bill = txt_bill.Text;
             edate = edat.SelectedDate.Value.ToShortDateString();
             mid = txt_mid.Text;
@@ -44,11 +44,11 @@ namespace PhMS
             cmd.Parameters.Add("@a", SqlDbType.VarChar).Value = bill;
             cmd.Parameters.Add("@b", SqlDbType.Date).Value = edate;
             cmd.Parameters.Add("@c", SqlDbType.VarChar).Value = mid;
-            cmd.Parameters.Add("@d", SqlDbType.VarChar).Value = mname;  
+            cmd.Parameters.Add("@d", SqlDbType.VarChar).Value = mname;
             cmd.Parameters.Add("@e", SqlDbType.VarChar).Value = cname;
             cmd.Parameters.Add("@f", SqlDbType.VarChar).Value = rdname;
             cmd.Parameters.Add("@g", SqlDbType.VarChar).Value = ta;
-            
+
             sqlcon.Open();
             int rows = cmd.ExecuteNonQuery();
             if (rows > 0)
@@ -68,18 +68,17 @@ namespace PhMS
 
             while (read.Read())
             {
-                txt_details.Text = "Bill No          : " + read[0].ToString();
-                txt_details.Text += "\nDate          : " + read[1].ToString();
-                txt_details.Text += "\nMedicine ID   : " + read[2].ToString();
-                txt_details.Text += "\nCompany Name : " + read[3].ToString();
 
-                txt_details.Text += "\nReferred Doctor name : " + read[5].ToString();
+                txt_details.Text = "\n\t\tPharmacy Management System\n\t\tThanks For Being With Us\n\tBill No          : " + read[0].ToString();
+                txt_details.Text += "\n\tDate          : " + read[1].ToString();
+                txt_details.Text += "\n\tMedicine ID   : " + read[2].ToString();
+                txt_details.Text += "\n\tCompany Name : " + read[3].ToString();
+                txt_details.Text += "\n\tReferred Doctor name : " + read[5].ToString();
+                txt_details.Text += "\n\tTotal taka :" + read[6].ToString();
 
-                txt_details.Text += "\nTotal taka" + read[6].ToString();
-             
             }
             sqlcon.Close();
-        
+
         }
 
         private void cv(object sender, RoutedEventArgs e)
@@ -101,5 +100,30 @@ namespace PhMS
             Calculator mx = new Calculator();
             mx.Show();
         }
+
+        private void hpg(object sender, RoutedEventArgs e)
+        {
+            MainWindow mx = new MainWindow();
+            mx.Show();
+            this.Close();
+        }
+
+        private void gdf(object sender, RoutedEventArgs e)
+        {
+            Mainpage mx = new Mainpage();
+            mx.Show();
+            this.Close();
+        }
+
+        private void print(object sender, RoutedEventArgs e)
+        {
+            PrintDialog printDialog = new PrintDialog();
+            if(printDialog.ShowDialog()==true)
+            {
+                printDialog.PrintVisual(txt_details, "Printing");
+            }
+        }
     }
 }
+    
+

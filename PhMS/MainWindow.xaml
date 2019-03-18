@@ -51,8 +51,8 @@
                 <ImageBrush ImageSource="Image/38-512.png"/>
             </Button.Background>
         </Button>
-        <Label x:Name="timer" Content="Time :" Grid.Column="1" HorizontalAlignment="Left" Margin="105,396,0,0" VerticalAlignment="Top" Foreground="#FFF9F9F9" FontWeight="Bold" RenderTransformOrigin="0.545,0.231" FontSize="18" Loaded="time"/>
-        <Label Content="Run Time :" Grid.Column="1" HorizontalAlignment="Left" Margin="0,396,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFF3F3F3" FontSize="18" Width="100"/>
+        <Label x:Name="timer" Content="Time :" Grid.Column="1" HorizontalAlignment="Left" Margin="105,391,0,0" VerticalAlignment="Top" Foreground="#FFF9F9F9" FontWeight="Bold" RenderTransformOrigin="0.545,0.231" FontSize="18" Loaded="time"/>
+        <Label Content="Run Time :" Grid.Column="1" HorizontalAlignment="Left" Margin="0,391,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFF3F3F3" FontSize="18" Width="100"/>
         <TextBlock  Name="tbArrivalDateTime"
             Text="{Binding Source={x:Static sys:DateTime.Today},
                    StringFormat='{}{0:dd-MMM-yyyy}'}"

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
-        Title="Account" Height="688.235" Width="800">
+        Title="Account" Height="725.235" Width="800">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
             <GradientStop Color="Black" Offset="0"/>
@@ -75,15 +75,29 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <TextBlock x:Name="txt_details" HorizontalAlignment="Left" Margin="23,443,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="192" Width="746" FontWeight="Bold" FontSize="20" Foreground="White">
-            <TextBlock.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="#FFFF00BE" Offset="1"/>
-                </LinearGradientBrush>
-            </TextBlock.Background>
-        </TextBlock>
+        <TextBlock x:Name="txt_details" HorizontalAlignment="Left" Margin="10,407,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="277" Width="643" FontWeight="Bold" FontSize="20" Foreground="#FF04050B" Background="#FFF0F0F0"><InlineUIContainer>
+                <Grid Height="280" Width="777"/>
+            </InlineUIContainer></TextBlock>
         <Button Content="Calculate" HorizontalAlignment="Left" Margin="459,368,0,0" VerticalAlignment="Top" Width="86" Height="34" FontSize="18" Foreground="#FFE7EAF4" FontWeight="Bold" Click="calcu">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF340042" Offset="0"/>
+                    <GradientStop Color="#FFB610DF" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Homepage" HorizontalAlignment="Left" Margin="10,368,0,0" VerticalAlignment="Top" Width="105" Height="34" Foreground="#FFFF0057" FontSize="18" FontWeight="Bold" Click="hpg" RenderTransformOrigin="6.373,-10.408">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="Dashboard" HorizontalAlignment="Left" Margin="130,368,0,0" VerticalAlignment="Top" Width="106" Height="34" Foreground="#FFFF0057" FontSize="18" FontWeight="Bold" Click="gdf" RenderTransformOrigin="6.373,-10.408">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Grid HorizontalAlignment="Left" Height="171" Margin="10,443,0,0" VerticalAlignment="Top" Width="412"/>
+        <Button Content="Print" HorizontalAlignment="Left" Margin="658,601,0,0" VerticalAlignment="Top" Width="75" Height="34" FontSize="18" Foreground="#FFE7EAF4" FontWeight="Bold" Click="print">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF340042" Offset="0"/>
