@@ -202,3 +202,5 @@ C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\bin\Debug\Splash
 C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.csproj.CopyComplete
 C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\SplashScreenWindow.g.cs
 C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\SplashScreenWindow.baml
+C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Calculator.g.cs
+C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Calculator.baml

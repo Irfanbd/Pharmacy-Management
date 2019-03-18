@@ -83,6 +83,14 @@
                 </LinearGradientBrush>
             </TextBlock.Background>
         </TextBlock>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="459,368,0,0" VerticalAlignment="Top" Width="86" Height="34" FontSize="18" Foreground="#FFE7EAF4" FontWeight="Bold" Click="calcu">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF340042" Offset="0"/>
+                    <GradientStop Color="#FFB610DF" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>

@@ -9,7 +9,7 @@
     <Grid>
         <ProgressBar x:Name="progressBar" />
         <TextBlock HorizontalAlignment="Center"
-                   VerticalAlignment="Center">Please Wait  Loading...</TextBlock>
+                   VerticalAlignment="Center">Please Wait Loading...</TextBlock>
     </Grid>
 </Window>
 

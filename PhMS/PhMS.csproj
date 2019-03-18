@@ -77,6 +77,9 @@
     <Compile Include="Account.xaml.cs">
       <DependentUpon>Account.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Calculator.xaml.cs">
+      <DependentUpon>Calculator.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Company.xaml.cs">
       <DependentUpon>Company.xaml</DependentUpon>
     </Compile>
@@ -90,6 +93,10 @@
       <DependentUpon>Staff.xaml</DependentUpon>
     </Compile>
     <Page Include="Account.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Calculator.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -230,6 +237,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Calculator-512.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

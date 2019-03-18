@@ -95,5 +95,11 @@ namespace PhMS
             txt_rdname.Clear();
             txt_ta.Clear();
         }
+
+        private void calcu(object sender, RoutedEventArgs e)
+        {
+            Calculator mx = new Calculator();
+            mx.Show();
+        }
     }
 }
