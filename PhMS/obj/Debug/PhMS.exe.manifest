@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PhMS.exe" size="6213616">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PhMS.exe" size="6214640">
       <assemblyIdentity name="PhMS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>EbqOLEqUES0jEx5G+vh072v+lAyvdxptyFhSBBHdE1U=</dsig:DigestValue>
+        <dsig:DigestValue>ko+iw/lPqwsCwK7tjjU0Srd7d7AO3FcAAtrZxIcnzSk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
