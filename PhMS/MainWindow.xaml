@@ -3,6 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        
         xmlns:local="clr-namespace:PhMS"
         mc:Ignorable="d"
         Title="MainWindow" Height="464.491" Width="843.081">
@@ -49,9 +51,18 @@
                 <ImageBrush ImageSource="Image/38-512.png"/>
             </Button.Background>
         </Button>
-        <Label x:Name="timer" Content="Time :" Grid.Column="1" HorizontalAlignment="Left" Margin="105,387,0,0" VerticalAlignment="Top" Foreground="#FFF9F9F9" FontWeight="Bold" RenderTransformOrigin="0.545,0.231" FontSize="18" Loaded="time"/>
-        <Label Content="Run Time :" Grid.Column="1" HorizontalAlignment="Left" Margin="0,387,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFF3F3F3" FontSize="18" Width="100"/>
-        <Label x:Name="culture" Content="Time and date" Grid.Column="1" HorizontalAlignment="Left" Margin="172,387,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFF3F3F3" FontSize="18" Width="138"/>
+        <Label x:Name="timer" Content="Time :" Grid.Column="1" HorizontalAlignment="Left" Margin="105,396,0,0" VerticalAlignment="Top" Foreground="#FFF9F9F9" FontWeight="Bold" RenderTransformOrigin="0.545,0.231" FontSize="18" Loaded="time"/>
+        <Label Content="Run Time :" Grid.Column="1" HorizontalAlignment="Left" Margin="0,396,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFF3F3F3" FontSize="18" Width="100"/>
+        <TextBlock  Name="tbArrivalDateTime"
+            Text="{Binding Source={x:Static sys:DateTime.Today},
+                   StringFormat='{}{0:dd-MMM-yyyy}'}"
+                   VerticalAlignment="Center"
+                   Grid.Column="1"
+                   Margin="199,401,0,16"
+                   HorizontalAlignment="Left" FontSize="18" FontWeight="Bold" Foreground="#FFF6EFEF"/>
+
+
+
         <Button x:Name="btn_create" Content="Create Account" Grid.Column="1" HorizontalAlignment="Left" Margin="511,161,0,0" VerticalAlignment="Top" Width="165" Height="59" FontSize="22" FontWeight="Bold" Foreground="#FFF6F5EE" Click="btn_cre">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -61,5 +72,6 @@
             </Button.Background>
         </Button>
 
+        
     </Grid>
 </Window>
