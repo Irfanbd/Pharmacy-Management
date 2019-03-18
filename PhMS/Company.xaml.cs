@@ -51,7 +51,7 @@ namespace PhMS
             string connectionstring = @"Data Source=DESKTOP-M4UMV3O;Initial Catalog=fall16;Integrated Security=True";
             SqlConnection sqlcon = new SqlConnection(connectionstring);
             sqlcon.Open();
-            string commandstring = "select * from dbo.company where cname='" + txtcn.Text + "'";
+            string commandstring = "select * from dbo.company where cid='" + txtcid.Text + "'";
             SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
             SqlDataReader read = sqlcmd.ExecuteReader();
 
@@ -91,6 +91,23 @@ namespace PhMS
             Mainpage mx = new Mainpage();
             mx.Show();
             this.Close();
+        }
+
+        private void delete(object sender, RoutedEventArgs e)
+        {
+            string connectionstring = @"Data Source=DESKTOP-M4UMV3O;Initial Catalog=fall16;Integrated Security=True";
+            SqlConnection sqlcon = new SqlConnection(connectionstring);
+
+
+
+            string commandstring = "delete from dbo.company where cid='" + txtcid.Text + "'";
+            SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
+            sqlcon.Open();
+            int rows = sqlcmd.ExecuteNonQuery();
+            sqlcon.Close();
+
+            if (rows > 0)
+                MessageBox.Show("Information Has Deleted.");
         }
     }
 }

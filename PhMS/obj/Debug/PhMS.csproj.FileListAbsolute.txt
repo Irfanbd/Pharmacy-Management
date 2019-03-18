@@ -204,3 +204,7 @@ C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Splash
 C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\SplashScreenWindow.baml
 C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Calculator.g.cs
 C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\Calculator.baml
+C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\bin\Debug\PhMS.exe.manifest
+C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\bin\Debug\PhMS.application
+C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.exe.manifest
+C:\Users\Hackbook\Source\Repos\Irfanbd\Pharmacy-Management\PhMS\obj\Debug\PhMS.application

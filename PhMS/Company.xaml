@@ -57,7 +57,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="btn_save" Content="Save" HorizontalAlignment="Left" Margin="324,477,0,0" VerticalAlignment="Top" Width="145" Height="49" FontSize="36" FontFamily="Sitka Banner" Foreground="#FFF6F6F6" FontWeight="Bold" Click="click">
+        <Button x:Name="btn_save" Content="Save" HorizontalAlignment="Left" Margin="220,477,0,0" VerticalAlignment="Top" Width="145" Height="49" FontSize="36" FontFamily="Sitka Banner" Foreground="#FFF6F6F6" FontWeight="Bold" Click="click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -65,7 +65,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="Clear" HorizontalAlignment="Left" Margin="538,477,0,0" VerticalAlignment="Top" Width="145" Height="49" FontSize="36" FontFamily="Sitka Banner" Foreground="#FFF6F6F6" FontWeight="Bold" Click="cle">
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="385,477,0,0" VerticalAlignment="Top" Width="145" Height="49" FontSize="36" FontFamily="Sitka Banner" Foreground="#FFF6F6F6" FontWeight="Bold" Click="cle">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -106,6 +106,14 @@
         <Button Content="Dashboard" HorizontalAlignment="Left" Margin="914,477,0,0" VerticalAlignment="Top" Width="106" Height="44" Foreground="#FFFF0057" FontSize="18" FontWeight="Bold" Click="gdf" RenderTransformOrigin="6.373,-10.408">
             <Button.Background>
                 <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="549,477,0,0" VerticalAlignment="Top" Width="145" Height="49" FontSize="36" FontFamily="Sitka Banner" Foreground="#FFF6F6F6" FontWeight="Bold" Click="delete">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF00F7FD" Offset="1"/>
+                </LinearGradientBrush>
             </Button.Background>
         </Button>
 

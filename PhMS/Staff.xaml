@@ -27,7 +27,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="staffc_btn" Content="Search" HorizontalAlignment="Left" Margin="410,245,0,0" VerticalAlignment="Top" Width="110" Height="44" FontSize="20" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA" TabIndex="12" Click="btn">
+        <Button x:Name="staffc_btn" Content="Search" HorizontalAlignment="Left" Margin="379,247,0,0" VerticalAlignment="Top" Width="110" Height="44" FontSize="20" FontFamily="Sitka Display" FontWeight="Bold" Foreground="#FFFBFAFA" TabIndex="12" Click="btn">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF5B2CCC" Offset="0"/>
@@ -36,7 +36,7 @@
             </Button.Background>
         </Button>
         <TextBlock x:Name="txt_details" HorizontalAlignment="Left" Margin="36,326,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="194" Width="898" Background="#FFB06B6B" Foreground="White" FontFamily="Times New Roman" FontSize="24"/>
-        <Button Content="Clear" HorizontalAlignment="Left" Margin="585,245,0,0" VerticalAlignment="Top" Width="103" Height="44" FontSize="20" Foreground="#FFF8EEEE" FontWeight="Bold" Click="dd">
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="494,247,0,0" VerticalAlignment="Top" Width="103" Height="44" FontSize="20" Foreground="#FFF8EEEE" FontWeight="Bold" Click="dd" RenderTransformOrigin="-0.341,0.468">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF4050D3" Offset="0"/>
@@ -52,6 +52,14 @@
         <Button Content="Dashboard" HorizontalAlignment="Left" Margin="852,243,0,0" VerticalAlignment="Top" Width="106" Height="44" Foreground="#FFFF0057" FontSize="18" FontWeight="Bold" Click="gdf" RenderTransformOrigin="6.373,-10.408">
             <Button.Background>
                 <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="604,247,0,0" VerticalAlignment="Top" Width="103" Height="44" FontSize="20" Foreground="#FFF8EEEE" FontWeight="Bold" Click="deletej" RenderTransformOrigin="-0.341,0.468">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF4050D3" Offset="0"/>
+                    <GradientStop Color="#FF0F93E0" Offset="1"/>
+                </LinearGradientBrush>
             </Button.Background>
         </Button>
 

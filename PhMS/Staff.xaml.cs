@@ -91,5 +91,22 @@ namespace PhMS
             mx.Show();
             this.Close();
         }
+
+        private void deletej(object sender, RoutedEventArgs e)
+        {
+            string connectionstring = @"Data Source=DESKTOP-M4UMV3O;Initial Catalog=fall16;Integrated Security=True";
+            SqlConnection sqlcon = new SqlConnection(connectionstring);
+
+
+            
+            string commandstring = "delete from dbo.staff where sid='" + txtid.Text + "'";
+            SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
+            sqlcon.Open();
+            int rows = sqlcmd.ExecuteNonQuery();
+            sqlcon.Close();
+
+            if (rows > 0)
+                MessageBox.Show("Information Has Deleted.");
+        }
     }
 }
